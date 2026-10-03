@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @apply bg-ink text-gray-200 font-sans antialiased;
+}
+
+::selection {
+  @apply bg-accent/30 text-white;
+}
